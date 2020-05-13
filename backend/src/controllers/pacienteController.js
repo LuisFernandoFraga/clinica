@@ -9,7 +9,7 @@ module.exports = {
   },
 
   async create(req, res) {
-    const { nome, tipo_sanguineo } = req.body;
+    const { nome, tipo_sanguineo, medico } = req.body;
 
     const id = crypto.randomBytes(4).toString("HEX");
 
@@ -17,6 +17,7 @@ module.exports = {
       id,
       nome,
       tipo_sanguineo,
+      medico
     });
 
     return res.json({ id });

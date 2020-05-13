@@ -36,7 +36,7 @@ form textarea {
   width: 100%;
   resize: vertical;
   min-height: 140px;
-  color: #333;
+  color: #938cc3;
   border: 1px solid #dcdce6;
   border-radius: 8px;
   padding: 16px 24px;
@@ -61,6 +61,18 @@ form textarea {
   transition: filter 0.2s; /* Efeito de transição do filter por 0.2s */
 }
 
+.combo {
+  font: 400 18px Roboto, sans-serif;
+  width: 100%;
+  resize: vertical;
+  min-height: 50px;
+  color: #938cc3;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  padding: 16px 24px;
+  line-height: 24px;
+}
+
 .button:hover {
   filter: brightness(
     90%
@@ -83,7 +95,5 @@ form textarea {
 }
 
 .back-link:hover {
-  filter: brightness(
-    90%
-  );
+  filter: brightness(90%);
 }

@@ -4,6 +4,7 @@ exports.up = function (knex) {
       table.string("id").primary();
       table.string("nome").notNullable();
       table.string("tipo_sanguineo").notNullable();
+      table.string("medico");
     });
   };
   
